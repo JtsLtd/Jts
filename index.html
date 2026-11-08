@@ -4,6 +4,9 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>MD. JABED MIAH - Portfolio</title>
+<!-- Address Bar-এর 3D Colorful JM লোগো -->
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='bg' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' stop-color='%2300e5ff'/><stop offset='100%' stop-color='%237000ff'/></linearGradient><filter id='shadow'><feDropShadow dx='2' dy='4' stdDeviation='2' flood-color='%23000000' flood-opacity='0.6'/></filter></defs><circle cx='50' cy='50' r='48' fill='url(%23bg)'/><text x='50' y='68' font-family='Arial, sans-serif' font-size='52' font-weight='900' fill='%23ffffff' text-anchor='middle' filter='url(%23shadow)' stroke='%23d4af37' stroke-width='2'>JM</text></svg>">
+
 <style>
   /* ================= ১. বেসিক সেটআপ ================= */
   * { margin: 0; padding: 0; box-sizing: border-box; }
@@ -97,7 +100,6 @@
   .contact a:hover {
     background: #d4af37; color: #0b1713;
   }
-  .contact a.cv-btn { background: #d4af37; color: #0b1713; }
 
   /* ================= ৩. ডান পাশ (মেইন কন্টেন্ট) ================= */
   .main-content {
@@ -215,9 +217,9 @@
     margin-top: 20px;
   }
   
-    .gallery-item {
+  .gallery-item {
     width: 100%; 
-    height: 350px; /* ছবির বক্স লম্বা করা হলো, যাতে আপনার পুরো মুখটা ধরে */
+    height: 350px; 
     border-radius: 12px;
     overflow: hidden; 
     border: 1px solid rgba(212, 175, 55, 0.3);
@@ -229,7 +231,7 @@
     width: 100%;
     height: 100%;
     object-fit: cover; 
-    object-position: top center; /* এই লাইনটি আপনার মাথার অংশ ফোকাসে রাখবে */
+    object-position: top center; 
     display: block;
   }
 
@@ -283,7 +285,6 @@
   }
 </style>
 </head>
-  <link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><defs><linearGradient id='bg' x1='0%' y1='0%' x2='100%' y2='100%'><stop offset='0%' stop-color='%2300e5ff'/><stop offset='100%' stop-color='%237000ff'/></linearGradient><filter id='shadow'><feDropShadow dx='2' dy='4' stdDeviation='2' flood-color='%23000000' flood-opacity='0.6'/></filter></defs><circle cx='50' cy='50' r='48' fill='url(%23bg)'/><text x='50' y='68' font-family='Arial, sans-serif' font-size='52' font-weight='900' fill='%23ffffff' text-anchor='middle' filter='url(%23shadow)' stroke='%23d4af37' stroke-width='2'>JM</text></svg>">
 <body>
 
 <!-- বাম পাশ -->
@@ -310,10 +311,10 @@
     </a>
   </div>
   
+  <!-- Download CV বাটন সরানো হয়েছে -->
   <div class="contact">
     <a href="tel:+8801754311580">📞 +880 1754-311580</a>
     <a href="mailto:jabedahmed4463@gmail.com">✉️ Email Me</a>
-    <a href="cv.pdf" download class="cv-btn">📥 Download CV</a>
   </div>
 </div>
 
@@ -383,6 +384,10 @@
       <div class="skill">Storekeeping & Inventory</div>
       <div class="skill">Purchase & Marketing</div>
       <div class="skill">Administration & Reporting</div>
+      
+      <!-- নতুন যোগ করা স্কিল -->
+      <div class="skill">CV Designer</div>
+      <div class="skill">Website Designer</div>
     </div>
   </section>
 
@@ -467,8 +472,13 @@
       <div class="info-item"><b>Date of Birth</b><span>24 March 1998</span></div>
       <div class="info-item"><b>Nationality</b><span>Bangladeshi</span></div>
       <div class="info-item"><b>Blood Group</b><span>O+</span></div>
-      <div class="info-item"><b>NID</b><span>4206057913</span></div>
+      <div class="info-item"><b>NID</b><span>4206*****</span></div>
+      
+      <!-- Current Address -->
       <div class="info-item" style="grid-column: 1 / -1;"><b>Current Address</b><span>Rangauti Resort, Moulvibazar-3200</span></div>
+      
+      <!-- Permanent Address (নতুন যোগ করা হয়েছে) -->
+      <div class="info-item" style="grid-column: 1 / -1;"><b>Permanent Address</b><span>Kalimabad, Bhatera-3118, Kulaura, Moulvibazar</span></div>
     </div>
   </section>
 
